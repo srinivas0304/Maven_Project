@@ -1,0 +1,21 @@
+package com.pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage 
+{
+	
+	public static WebDriver driver;
+	
+	By username=By.id("username");
+	
+	By password=By.name("pwd");
+	
+	By loginBtn=By.xpath("//div[text()='Login ']");
+	
+	public LoginPage() 
+	{
+		this.driver=driver;
+	}
+}

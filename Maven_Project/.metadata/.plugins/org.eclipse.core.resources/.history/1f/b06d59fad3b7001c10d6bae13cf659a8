@@ -1,0 +1,13 @@
+package com.testcases;
+
+import com.baseclass.configurebrowser.BaseClass;
+
+public class LoginPageTest extends BaseClass
+{
+	
+	@BeforeMethod
+	public void setupBrowser()
+	{
+		launchBrowser();
+	}
+}

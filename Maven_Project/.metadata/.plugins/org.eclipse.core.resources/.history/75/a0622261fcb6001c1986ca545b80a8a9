@@ -1,0 +1,45 @@
+package extentLibrary;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class Extent_Utility 
+{
+	public static ExtentSparkReporter reporter;
+	public static ExtentReports extent;
+	public static ExtentTest test;
+	public void extentReport()
+	{
+		try
+		{
+			reporter = new ExtentSparkReporter("./ExtentReports/EndToEndTest.html");
+			reporter.config().setReportName("EndToEnd");
+     		reporter.config().setDocumentTitle("Test Results");
+			ExtentReports extent = new ExtentReports();
+			extent.attachReporter(reporter);
+			extent.setSystemInfo("Tester", "Automation");
+			test=extent.createTest("FirstTestcase");
+			extent.flush();
+		}
+		catch(Exception e)
+		{
+			System.out.println("Exception while taking screenshot: "+e.getMessage());
+		}	
+	
+	}
+	
+	public void afterReport()
+	{
+		extent.flush();
+	}
+}

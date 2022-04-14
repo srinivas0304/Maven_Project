@@ -1,0 +1,20 @@
+package com.pageObjects;
+
+import org.openqa.selenium.By;
+
+import com.baseclass.configurebrowser.BaseClass;
+
+public class TaskPage extends BaseClass
+{
+	
+	By task=By.id("container_tasks");
+	
+	By addNew=By.className("addNewButton");
+	
+	By newCustomer=By.cssSelector("div.item.createNewCustomer");
+	
+	public TaskPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+}

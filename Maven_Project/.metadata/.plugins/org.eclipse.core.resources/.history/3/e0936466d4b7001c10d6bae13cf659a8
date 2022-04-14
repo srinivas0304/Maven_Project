@@ -1,0 +1,22 @@
+package com.testcases;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import com.baseclass.configurebrowser.BaseClass;
+
+public class LoginPageTest extends BaseClass
+{
+	
+	@BeforeMethod
+	public void setupBrowser()
+	{
+		launchBrowser();
+	}
+	
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.quit();
+	}
+}

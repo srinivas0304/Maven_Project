@@ -1,0 +1,28 @@
+package TestNGListenerConcept;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public class ScreenshotTest extends BaseClass_Listerns
+{
+	
+	@BeforeMethod
+	public void setup()
+	{
+		launchBrowser();
+	}
+	
+	@AfterMethod
+	public void tearDown()
+	
+	{
+		driver.quit();
+	}
+	
+	@Test
+	public void takingScreenshot()
+	{
+		Assert.assertEquals(false, true);
+	}
+}

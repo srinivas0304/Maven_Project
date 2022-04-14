@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;MyStoreProject2&apos;&#x0D;&#x0A;- Original project: &apos;MyStoreProject2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     testng_regression.xml&#x0D;&#x0A;     testng_sanity.xml&#x0D;&#x0A;     testng_smoke.xml" description="Delete elements" element1="testng_regression.xml" element2="testng_smoke.xml" element3="testng_sanity.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1648807068915" subPackages="false" version="1.0"/>
+</session>

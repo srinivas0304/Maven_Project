@@ -1,0 +1,21 @@
+package com.extentReports;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Actitime 
+{
+	public static WebDriver driver;
+	
+	@BeforeTest
+	public void login()
+	{
+		WebDriverManager.edgedriver().setup();
+		driver=new EdgeDriver();
+
+	}
+}

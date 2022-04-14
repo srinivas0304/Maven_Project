@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\addla\Maven_Project\ActitimeProject\src\test\java\extentReportTest\Demo1.java"/>
+			<item value="C:\Users\addla\Maven_Project\MyStoreProject"/>
+			<item value="C:\Users\addla\Maven_Project\Ratna_Maven"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="ExtentReports_Maven"/>
+			<item value="OpenSourceHrm"/>
+			<item value="MyStoreProject2"/>
+			<item value="BDD_CucumberFramework"/>
+			<item value="MystoreProject_2"/>
+			<item value="MyStoreProject"/>
+			<item value="maven"/>
+			<item value="Maven_Sele"/>
+			<item value="Ratna_Maven"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ExtentReports_Maven"/>
+			<item value="OpenSourceHrm"/>
+			<item value="MyStoreProject2"/>
+			<item value="BDD_CucumberFramework"/>
+			<item value="MystoreProject_2"/>
+			<item value="MyStoreProject"/>
+			<item value="maven"/>
+			<item value="Maven_Sele"/>
+			<item value="Ratna_Maven"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

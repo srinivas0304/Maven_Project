@@ -1,0 +1,30 @@
+package extentReportLibrary;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentLibrary 
+{
+	ExtentSparkReporter reporter;
+	ExtentReports extent;
+	ExtentTest test;
+	
+	public void reportGenerator()
+	{
+	try
+	
+	{
+		reporter=new ExtentSparkReporter("./ExtentReport/ActiTime.html");
+		reporter.config().setReportName("Actitime report");
+		reporter.config().setDocumentTitle("SparkReport");
+		extent=new ExtentReports();
+		extent.attachReporter(reporter);
+		test=extent.createTest("actitime test case")
+	}
+	catch(Exception e)
+	{
+		System.out.println("Exception while generating report"+e.getMessage());
+	}
+}
+}

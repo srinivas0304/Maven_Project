@@ -1,0 +1,8 @@
+package TestNGListenerConcept;
+
+import org.testng.ITestResult;
+
+public class Customlistener extends BaseClass_Listerns implements ITestResult
+{
+
+}

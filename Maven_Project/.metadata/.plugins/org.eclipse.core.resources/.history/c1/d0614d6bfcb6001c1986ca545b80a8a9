@@ -1,0 +1,8 @@
+package extentReportLibrary;
+
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentLibrary 
+{
+	ExtentSparkReporter reporter=new ExtentSparkReporter("./ExtentReport/ActiTime.html");
+}

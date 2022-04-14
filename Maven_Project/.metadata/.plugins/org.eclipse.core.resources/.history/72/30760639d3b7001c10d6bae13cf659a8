@@ -1,0 +1,12 @@
+package com.pageObjects;
+
+import org.openqa.selenium.By;
+
+public class LoginPage 
+{
+	By username=By.id("username");
+	
+	By password=By.name("pwd");
+	
+	By loginBtn=By.xpath("//div[text()='Login ']")
+}
